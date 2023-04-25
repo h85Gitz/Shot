@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=E294F8E3_002D6151_002D560E_002D3765_002D9C8D64F026F1_002Fd_003AAssets_002Fd_003AScripts_002Fd_003AController_002Ff_003AEnemyHealth_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=E3F894E2_002D5161_002D0E56_002D3765_002D9C8D64F026F1_002Fd_003AAssets_002Fd_003AScripts_002Fd_003AController_002Ff_003AEnemyHealth_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=firstpartical/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=particalsecond/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=secondpartical/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
