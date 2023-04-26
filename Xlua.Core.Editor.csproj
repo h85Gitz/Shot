@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0176793A-9C4C-412B-81EF-2B6A10E80D34}</ProjectGuid>
+    <ProjectGuid>{64D494EF-BC79-6817-22D8-812FF51EF0A1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Xlua.Core.Editor</AssemblyName>
@@ -802,7 +802,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Xlua.Core.csproj">
-      <Project>{15430B64-6FD7-A40B-DDDA-A0ACCFF51039}</Project>
+      <Project>{A67C23EA-C244-4CE7-B6A2-BE413FEB578C}</Project>
       <Name>Xlua.Core</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{15430B64-6FD7-A40B-DDDA-A0ACCFF51039}</ProjectGuid>
+    <ProjectGuid>{A67C23EA-C244-4CE7-B6A2-BE413FEB578C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Xlua.Core</AssemblyName>

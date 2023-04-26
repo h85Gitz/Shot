@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Cinemachine;
 using Controller;
 using UI;
 using UnityEngine;
@@ -25,6 +26,7 @@ namespace Manager
         [SerializeField] private GameObject scoreBoard;
         public  GameMode gameMode;
 
+        public Camera mainCamera;
         public Transform triggerArea;
         private PlayableDirector _currentPlayableDirector;
         private EffectType _effectType;
@@ -78,7 +80,9 @@ namespace Manager
             _effectType = EffectType.Icon;
             gameMode = GameMode.Normal;
             SetStateActive(true);
+            mainCamera.transform.GetComponent<CinemachineBrain>().enabled = false;
             UIEffect.Instance.Move(_effectType, _rectIcon, _rectTip,hpSlider, mpSlider);
+           
         }
 
         private void SetStateActive(bool startGame)
