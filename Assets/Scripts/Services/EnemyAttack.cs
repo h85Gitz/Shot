@@ -37,7 +37,7 @@ namespace Services
             {
                 _playerInRange = false;
             }
-            Debug.Log("OnTriggerExit:" + _playerInRange);
+            //Debug.Log("OnTriggerExit:" + _playerInRange);
         }
 
         private void Update()

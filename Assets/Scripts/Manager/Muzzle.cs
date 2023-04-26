@@ -42,7 +42,7 @@ public class Muzzle : MonoBehaviour
 
     void Update()
     {
-        PlayerMove.Instance.LookAtMouse();
+        //PlayerMove.Instance.LookAtMouse();
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Stackle<string>.Instance.stackleEvent += PlayerMove.Instance.Subscribe;

@@ -29,18 +29,7 @@ internal class PlayerMove : MonoSingleton<PlayerMove>
     }
 
 
-    // private void FixedUpdate()
-    // {
-    //     if (_gameManager.gameMode != GameManager.GameMode.Normal) return;
-    //     var horizontal = Input.GetAxis("Horizontal");
-    //     var vertical = Input.GetAxis("Vertical");
-    //
-    //     Animating(horizontal, vertical);
-    //     Move(horizontal, vertical);
-    //     if (!isLookAtMouse) return;
-    //     LookAtMouse();
-    //
-    // }
+ 
 
     public void Move(float h , float v)
     {

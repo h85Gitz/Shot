@@ -19,7 +19,7 @@ namespace Controller
         }
         private void Update()
         {
-            if (!photonView.IsMine && _gameManager.gameMode != GameManager.GameMode.Normal) return;
+            if ( _gameManager.gameMode != GameManager.GameMode.Normal) return;
             var horizontal = Input.GetAxis("Horizontal");
             var vertical = Input.GetAxis("Vertical");
             PlayerMove.Instance.Animating(horizontal, vertical);

@@ -60,5 +60,10 @@ namespace UI
             var sequence = DOTween.Sequence();
             //sequence.Append(_rectDual.DOAnchorPosX(_rectSwitchWeapon.anchoredPosition3D.x + 50f, 0.5f, true));
         }
+        public void ArrowMove()
+        {
+
+        }
+
     }
 }
